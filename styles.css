@@ -1,1 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: gray;
+}
+.flex{
+    display: flex;
+}
+.container{
+    width: 90%;
+    height: 80vh;
+    background: white;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid rgb(109, 108, 108);
+}
+.left{
+    width: 50%;
+}
+.upper{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.heading{
+    margin-left: 100px;
+}
 
+/* SKILLS */
+.fa-react{
+    color: aqua;
+    font-size: 30px;
+}
+.fa-css3-alt{
+    color: blue;
+    font-size: 30px;
+}
+.fa-js{
+    color: yellow;
+    font-size: 30px;
+}
+.fa-node-js{
+    color: green;
+    font-size: 30px;
+}
+.fa-droplet{
+    color: green;
+    font-size: 30px;
+}
+.fa-java{
+    color: blue;
+    font-size: 30px;
+}
+.fa-python{
+    color: yellowgreen;
+    font-size: 30px;
+}
+.fa-php{
+    color: blueviolet;
+    font-size: 30px;
+}
+.fa-aws{
+    color: rgb(255, 166, 0);
+    font-size: 30px;
+}
+.fa-wordpress{
+    color: black;
+    font-size: 30px;
+}
+
+.lower{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.lower .skills{
+    margin-top: 15px;
+}
+progress{
+    width: 100%;
+}
+i{
+    padding-right: 10px;
+}
+.label95{
+    margin-left: 14rem;
+}
+.label90{
+    margin-left: 17rem;
+}
+.label80{
+    margin-left: 11rem;
+}
+.label85{
+    margin-left: 15rem;
+}
+
+/* Right */
+.right{
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.underline{
+    width: 85px;
+    height: 3px;
+    background: blue;
+}
+.para1{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.para2{
+    font-size: 18px;
+    padding-top: 30px;
+}
